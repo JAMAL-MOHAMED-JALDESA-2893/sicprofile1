@@ -48,3 +48,41 @@ body{
     padding: 2rem;
     text-align: center;
 }
+
+.header .user img {
+    margin: 1rem 0;
+    border: 1rem solid transparent;
+    border-radius: 50%;
+    height: 18rem;
+    width: 18rem;
+    box-shadow: var(--box-shadow);
+}
+
+.header .user h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.header .user p {
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.header .navbar {
+    padding-top: 1rem;
+}
+
+.header .navbar a {
+    display: block;
+    margin: 1.5rem 0;
+    padding: .7rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+}
+
+.header .navbar a:hover {
+    box-shadow: var(--box-shadow-inset);
+    color: var(--green);
+}
